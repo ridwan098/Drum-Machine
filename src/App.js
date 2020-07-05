@@ -4,7 +4,7 @@ class App extends Component {
 
     render() {
         return (
-            <div><h1>K boi</h1></div>
+            <div><h1>K Actualluy no</h1></div>
         );
     }
 }
