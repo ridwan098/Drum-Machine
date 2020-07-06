@@ -15,14 +15,14 @@ class DrumPad extends React.Component {
     }
 
     componentWillUnmount() {
-        document.remoceEventListener('keydown', this.handleKeyPress);
+        document.removeEventListener('keydown', this.handleKeyPress);
     }
 
     handleClick(e) {
         this.playSound();
         this.changeDisplay(this.props.id);
 
-        let toFocus = document.getElementById(this.props.id);
+        var toFocus = document.getElementById(this.props.id);
         toFocus.focus();
         setTimeout(function () { toFocus.blur(); }, 100);
     }
@@ -31,15 +31,16 @@ class DrumPad extends React.Component {
         if (e.keyCode === this.props.keyCode) {
             this.playSound();
             this.changeDisplay(this.props.id);
-        }
 
-        let toFocus = document.getElementById(this.props.id);
-        toFocus.focus();
-        setTimeout(function () { toFocus.blur(); }, 100);
+            var toFocus = document.getElementById(this.props.id);
+            toFocus.focus();
+            setTimeout(function () { toFocus.blur(); }, 100);
+
+        }
     }
 
-    changeDisplay(x) {
-        this.props.displayCallback(x);
+    changeDisplay(value) {
+        this.props.displayCallback(value);
     }
 
     playSound(e) {
@@ -50,9 +51,13 @@ class DrumPad extends React.Component {
 
     render() {
         return (
-            <button class='drum-pad' id={this.props.id} onClick={this.handleClick} onKeyDown={this.handleKeyPress}>{this.props.keyChar}<audio className='clip' id={this.props.keyChar} src={this.props.url}></audio></button>
+            <button class="drum-pad" id={this.props.id} onClick={this.handleClick} onKeyDown={this.handleKeyPress}>
+                {this.props.keyChar}
+                <audio className='clip' id={this.props.keyChar} src={this.props.url}></audio>
+            </button>
         )
     }
 };
+
 
 export default DrumPad;
