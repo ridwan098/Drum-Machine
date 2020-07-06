@@ -6,7 +6,7 @@
 
 ### You can view live version here:
 - [Click here](https://drummer-machine.herokuapp.com/)
-- [Or viee on codepen](https://codepen.io/ridwan098/pen/jOWZzyy)
+- [Or view on codepen](https://codepen.io/ridwan098/pen/jOWZzyy)
 
 In the project directory, you can run:
 
