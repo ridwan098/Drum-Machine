@@ -59,7 +59,8 @@ class App extends Component {
                     <button onClick={this.changeSound} id='soundButton'>Change Sound</button>
                 </div>
 
-
+                <div class="container" style={{ 'margin-top': 20 }}><small>Copyright © <a href="https://ridwan.co.uk" target="_blank" rel="noopener noreferrer">Ridwan
+            Gbadamosi</a> 2020</small></div>
 
             </div>
         );
