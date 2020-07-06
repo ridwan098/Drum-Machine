@@ -1,6 +1,6 @@
 ### Drummer Machine
 
-[![screenshot of the home screen](src/images/homeScreen.png)](https://drummer-machine.herokuapp.com/)
+[![screenshot of the home screen](src/components/images/homeScreen.png)](https://drummer-machine.herokuapp.com/)
 ## Available Scripts
 
 
