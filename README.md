@@ -1,11 +1,11 @@
 ### Drummer Machine
 
-[![screenshot of the home screen](src/components/images/homeScreen.png)](https://drummer-machine.herokuapp.com/)
+[![screenshot of the home screen](src/components/images/homeScreen.png)](https://xenodochial-heisenberg-1f1e6d.netlify.app/)
 ## Available Scripts
 
 
 ### You can view live version here:
-- [Click here](https://drummer-machine.herokuapp.com/)
+- [Click here](https://xenodochial-heisenberg-1f1e6d.netlify.app/)
 - [Or view on codepen](https://codepen.io/ridwan098/pen/jOWZzyy)
 
 In the project directory, you can run:
